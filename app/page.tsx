@@ -2,6 +2,7 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/com
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
+import { Github, Linkedin, Mail, Heart } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -71,6 +72,22 @@ export default function Home() {
               <Button size="sm">Small</Button>
               <Button>Default Size</Button>
               <Button size="lg">Large</Button>
+            </div>
+          </CardContent>
+        </Card>
+
+        {/* Icon Examples */}
+        <Card className="mt-8">
+          <CardHeader>
+            <CardTitle>Icon Library</CardTitle>
+            <CardDescription>lucide-react icons in action</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <div className="flex gap-4 items-center">
+              <Github className="w-6 h-6" />
+              <Linkedin className="w-6 h-6" />
+              <Mail className="w-6 h-6" />
+              <Heart className="w-6 h-6 text-red-500" />
             </div>
           </CardContent>
         </Card>
