@@ -1,0 +1,90 @@
+{
+    "experiences": [
+        {
+            "id": 1,
+            "company": "Deloitte",
+            "position": "Senior Data Analyst",
+            "location": "San Francisco, CA",
+            "type": "Full-time",
+            "startDate": "2021-03",
+            "endDate": "Present",
+            "current": true,
+            "description": "Leading data analysis initiatives for Fortune 500 clients, specializing in predictive analytics and business intelligence solutions.",
+            "responsibilities": [
+                "Design and implement data pipelines processing 1M+ records daily",
+                "Create executive dashboards and reports for C-level stakeholders",
+                "Mentor team of 3 junior analysts on best practices and methodologies",
+                "Collaborate with cross-functional teams to drive data-driven decision making"
+            ],
+            "achievements": [
+                "Reduced reporting time by 70% through automation",
+                "Increased forecast accuracy from 75% to 92%",
+                "Led migration to cloud-based analytics platform"
+            ],
+            "technologies": [
+                "Python",
+                "SQL",
+                "Tableau",
+                "AWS",
+                "Snowflake"
+            ]
+        },
+        {
+            "id": 2,
+            "company": "TechCorp Solutions",
+            "position": "Data Analyst",
+            "location": "New York, NY",
+            "type": "Full-time",
+            "startDate": "2019-06",
+            "endDate": "2021-02",
+            "current": false,
+            "description": "Performed data analysis and visualization for marketing and sales departments, driving insights for strategic initiatives.",
+            "responsibilities": [
+                "Analyzed customer behavior data to identify trends and patterns",
+                "Built interactive dashboards using Tableau and Power BI",
+                "Conducted A/B testing and statistical analysis for marketing campaigns",
+                "Collaborated with data engineers to improve data quality"
+            ],
+            "achievements": [
+                "Improved customer segmentation accuracy by 40%",
+                "Reduced churn rate by 12% through predictive modeling",
+                "Automated 15+ manual reporting processes"
+            ],
+            "technologies": [
+                "Python",
+                "R",
+                "SQL",
+                "Tableau",
+                "Power BI"
+            ]
+        },
+        {
+            "id": 3,
+            "company": "DataStart Inc",
+            "position": "Junior Data Analyst",
+            "location": "Boston, MA",
+            "type": "Full-time",
+            "startDate": "2018-01",
+            "endDate": "2019-05",
+            "current": false,
+            "description": "Entry-level role focused on data cleaning, analysis, and reporting for various client projects.",
+            "responsibilities": [
+                "Cleaned and preprocessed data from multiple sources",
+                "Created ad-hoc reports and visualizations for clients",
+                "Assisted senior analysts with data modeling projects",
+                "Maintained data quality and documentation standards"
+            ],
+            "achievements": [
+                "Processed 500K+ records for client analytics projects",
+                "Received 'Outstanding New Hire' award",
+                "Completed 10+ professional certifications"
+            ],
+            "technologies": [
+                "Excel",
+                "SQL",
+                "Python",
+                "Tableau"
+            ]
+        }
+    ]
+}
