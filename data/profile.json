@@ -1,0 +1,22 @@
+{
+    "name": "Udit Chatterjee",
+    "title": "Senior Data Professional",
+    "tagline": "Transforming Data into Actionable Insights",
+    "email": "quantumudit@gmail.com",
+    "phone": "+91 73818 33996",
+    "location": "Cuttack, Odisha, India",
+    "bio": "Passionate data professional with 5+ years of experience in data analysis, visualization, and machine learning. Specialized in turning complex datasets into clear, actionable business insights. Currently focused on building scalable data pipelines and predictive models.",
+    "avatar": "/images/avatar.jpg",
+    "resumeUrl": "/resume.pdf",
+    "social": {
+        "linkedin": "https://linkedin.com/in/quantumudit",
+        "github": "https://github.com/quantumudit",
+        "twitter": "https://twitter.com/quantumudit",
+        "email": "mailto:quantumudit@gmail.com",
+        "website": "https://quantumudit.com"
+    },
+    "availability": {
+        "status": "open",
+        "message": "Available for freelance projects and consulting"
+    }
+}
