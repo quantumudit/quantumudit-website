@@ -1,0 +1,138 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "Customer Churn Prediction Model",
+            "slug": "customer-churn-prediction",
+            "description": "Built a machine learning model to predict customer churn with 89% accuracy using ensemble methods. Reduced customer attrition by 15% and saved $2M annually.",
+            "longDescription": "Developed an end-to-end machine learning pipeline to predict customer churn for a telecom company. Analyzed 100K+ customer records, performed feature engineering on 50+ variables, and implemented XGBoost classifier. Created interactive dashboard for business stakeholders to identify at-risk customers.",
+            "technologies": [
+                "Python",
+                "Scikit-learn",
+                "XGBoost",
+                "Pandas",
+                "SQL",
+                "Tableau"
+            ],
+            "image": "/images/projects/churn-prediction.jpg",
+            "github": "https://github.com/quantumudit/customer-churn-prediction",
+            "demo": "https://churn-demo.quantumudit.com",
+            "highlights": [
+                "Achieved 89% prediction accuracy with 85% recall",
+                "Reduced customer churn rate by 15%",
+                "Processed 100K+ customer records",
+                "Deployed model to production using Docker"
+            ],
+            "metrics": {
+                "accuracy": "89%",
+                "impact": "$2M saved annually",
+                "scale": "100K+ records"
+            },
+            "featured": true,
+            "category": "machine-learning",
+            "startDate": "2024-01",
+            "endDate": "2024-06",
+            "status": "template"
+        },
+        {
+            "id": 2,
+            "title": "Sales Analytics Dashboard",
+            "slug": "sales-analytics-dashboard",
+            "description": "Interactive Tableau dashboard providing real-time insights into sales performance across 500+ retail locations. Improved decision-making speed by 40%.",
+            "longDescription": "Designed and built a comprehensive sales analytics dashboard using Tableau, connecting to multiple data sources including Salesforce, SQL databases, and Excel sheets. Implemented automated data refresh pipelines and created 20+ interactive visualizations for executive team.",
+            "technologies": [
+                "Tableau",
+                "SQL",
+                "Python",
+                "ETL",
+                "Snowflake"
+            ],
+            "image": "/images/projects/sales-dashboard.jpg",
+            "github": null,
+            "demo": "https://public.tableau.com/app/profile/quantumudit/viz/sales-dashboard",
+            "highlights": [
+                "Real-time monitoring of 500+ retail locations",
+                "Reduced reporting time from 2 days to 2 hours",
+                "Improved decision-making speed by 40%",
+                "Automated ETL pipeline processing 1M+ records daily"
+            ],
+            "metrics": {
+                "locations": "500+",
+                "timeReduction": "95%",
+                "users": "50+ stakeholders"
+            },
+            "featured": true,
+            "category": "visualization",
+            "startDate": "2023-09",
+            "endDate": "2024-01",
+            "status": "template"
+        },
+        {
+            "id": 3,
+            "title": "Sentiment Analysis Pipeline",
+            "slug": "sentiment-analysis-pipeline",
+            "description": "NLP pipeline for analyzing customer reviews and social media sentiment in real-time. Processes 10K+ reviews daily with 92% accuracy.",
+            "longDescription": "Built a scalable sentiment analysis system using Python and NLTK to analyze customer feedback from multiple channels. Implemented real-time processing with Apache Kafka, created custom BERT-based model, and deployed to AWS Lambda for serverless execution.",
+            "technologies": [
+                "Python",
+                "NLTK",
+                "BERT",
+                "Apache Kafka",
+                "AWS Lambda",
+                "PostgreSQL"
+            ],
+            "image": "/images/projects/sentiment-analysis.jpg",
+            "github": "https://github.com/quantumudit/sentiment-analysis-pipeline",
+            "demo": null,
+            "highlights": [
+                "92% sentiment classification accuracy",
+                "Processes 10K+ reviews daily in real-time",
+                "Reduced manual review time by 80%",
+                "Serverless architecture with 99.9% uptime"
+            ],
+            "metrics": {
+                "accuracy": "92%",
+                "throughput": "10K+ reviews/day",
+                "uptime": "99.9%"
+            },
+            "featured": true,
+            "category": "nlp",
+            "startDate": "2023-05",
+            "endDate": "2023-08",
+            "status": "template"
+        },
+        {
+            "id": 4,
+            "title": "Supply Chain Optimization",
+            "slug": "supply-chain-optimization",
+            "description": "Data-driven supply chain optimization reducing inventory costs by 22% while maintaining 98% service levels across 200+ SKUs.",
+            "longDescription": "Developed predictive models for demand forecasting and inventory optimization. Created Monte Carlo simulations to optimize safety stock levels, implemented ABC analysis for inventory classification, and built automated reordering system.",
+            "technologies": [
+                "Python",
+                "R",
+                "Excel",
+                "Power BI",
+                "Optimization"
+            ],
+            "image": "/images/projects/supply-chain.jpg",
+            "github": null,
+            "demo": null,
+            "highlights": [
+                "Reduced inventory costs by 22% ($500K annually)",
+                "Maintained 98% service level",
+                "Optimized 200+ SKUs",
+                "Improved forecast accuracy by 35%"
+            ],
+            "metrics": {
+                "costReduction": "22%",
+                "savings": "$500K/year",
+                "skus": "200+"
+            },
+            "featured": false,
+            "category": "optimization",
+            "startDate": "2023-01",
+            "endDate": "2023-04",
+            "status": "template"
+        }
+    ]
+}
