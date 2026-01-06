@@ -1,0 +1,80 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "category": "Programming Languages",
+            "icon": "code",
+            "items": [
+                "Python",
+                "R",
+                "SQL",
+                "JavaScript",
+                "Java"
+            ]
+        },
+        {
+            "id": 2,
+            "category": "Data Analysis & Visualization",
+            "icon": "bar-chart",
+            "items": [
+                "Pandas",
+                "NumPy",
+                "Matplotlib",
+                "Seaborn",
+                "Plotly",
+                "Tableau",
+                "Power BI",
+                "Looker"
+            ]
+        },
+        {
+            "id": 3,
+            "category": "Machine Learning",
+            "icon": "brain",
+            "items": [
+                "Scikit-learn",
+                "TensorFlow",
+                "PyTorch",
+                "XGBoost",
+                "Keras"
+            ]
+        },
+        {
+            "id": 4,
+            "category": "Big Data & Cloud",
+            "icon": "cloud",
+            "items": [
+                "Apache Spark",
+                "Hadoop",
+                "AWS",
+                "Google Cloud Platform",
+                "Azure",
+                "Databricks"
+            ]
+        },
+        {
+            "id": 5,
+            "category": "Databases",
+            "icon": "database",
+            "items": [
+                "PostgreSQL",
+                "MySQL",
+                "MongoDB",
+                "Redis",
+                "Snowflake"
+            ]
+        },
+        {
+            "id": 6,
+            "category": "Tools & Technologies",
+            "icon": "tool",
+            "items": [
+                "Git",
+                "Docker",
+                "Jupyter",
+                "VS Code",
+                "Airflow"
+            ]
+        }
+    ]
+}
