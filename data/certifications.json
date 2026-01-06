@@ -1,0 +1,57 @@
+{
+    "certifications": [
+        {
+            "id": 1,
+            "name": "AWS Certified Data Analytics - Specialty",
+            "issuer": "Amazon Web Services",
+            "date": "2023-06",
+            "expiryDate": "2026-06",
+            "credentialId": "AWS-DAS-12345",
+            "credentialUrl": "https://aws.amazon.com/verification",
+            "status": "active",
+            "description": "Validates expertise in AWS data analytics services and best practices for designing, building, and maintaining analytics solutions.",
+            "skills": [
+                "AWS Glue",
+                "Amazon Athena",
+                "Amazon Kinesis",
+                "Data Lakes",
+                "ETL Pipelines"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Tableau Desktop Specialist",
+            "issuer": "Tableau",
+            "date": "2022-11",
+            "expiryDate": null,
+            "credentialId": "TB-DS-67890",
+            "credentialUrl": "https://www.tableau.com/learn/certification",
+            "status": "active",
+            "description": "Demonstrates foundational skills in Tableau Desktop, including data connections, visual analytics, and dashboard creation.",
+            "skills": [
+                "Data Visualization",
+                "Dashboard Design",
+                "Calculated Fields",
+                "Data Blending"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Google Data Analytics Professional Certificate",
+            "issuer": "Google / Coursera",
+            "date": "2021-08",
+            "expiryDate": null,
+            "credentialId": "GDAPC-2021-XYZ",
+            "credentialUrl": "https://coursera.org/verify/professional-cert/xyz",
+            "status": "active",
+            "description": "Comprehensive program covering data analysis fundamentals, data visualization, R programming, and SQL.",
+            "skills": [
+                "Data Analysis",
+                "R Programming",
+                "SQL",
+                "Data Cleaning",
+                "Spreadsheets"
+            ]
+        }
+    ]
+}
