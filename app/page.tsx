@@ -1,30 +1,14 @@
 import Navigation from '@/components/layout/Navigation';
-import { getProfile, getQuickStats } from '@/lib/data';
+import HeroSection from '@/components/sections/HeroSection';
 
 export default function Home() {
-  const profile = getProfile();
-  const stats = getQuickStats();
-
   return (
     <>
       <Navigation />
 
-      <main className="pt-16"> {/* Padding for fixed navbar */}
-
-        {/* Home Section */}
-        <section id="home" className="min-h-screen flex items-center justify-center bg-gray-50 dark:bg-gray-900">
-          <div className="container mx-auto px-4 text-center">
-            <h1 className="text-5xl font-bold text-gray-900 dark:text-white mb-4">
-              {profile.name}
-            </h1>
-            <p className="text-xl text-blue-600 dark:text-blue-400 mb-8">
-              {profile.title}
-            </p>
-            <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-              {profile.bio}
-            </p>
-          </div>
-        </section>
+      <main>
+        {/* Hero Section - replaces old home section */}
+        <HeroSection />
 
         {/* Skills Section Placeholder */}
         <section id="skills" className="min-h-screen flex items-center justify-center bg-white dark:bg-gray-800">
