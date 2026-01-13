@@ -1,3 +1,4 @@
+import { Reveal } from '@/components/ui/reveal';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
 import SkillBadge from '@/components/portfolio/SkillBadge';
@@ -34,30 +35,32 @@ export default function SkillsSection() {
                 {/* Skills Grid */}
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {skills.map((category, idx) => (
-                        <Card
-                            key={category.category}
-                            className="hover:shadow-lg transition-shadow duration-300"
-                        >
-                            <CardHeader>
-                                <CardTitle className="flex items-center justify-between">
-                                    <span className="text-lg">{category.category}</span>
-                                    <span className="text-sm font-normal text-gray-500 dark:text-gray-400">
-                                        {category.items.length} skills
-                                    </span>
-                                </CardTitle>
-                            </CardHeader>
-                            <CardContent>
-                                <div className="flex flex-wrap gap-2">
-                                    {category.items.map((skill) => (
-                                        <SkillBadge
-                                            key={skill}
-                                            skill={skill}
-                                            category={category.category}
-                                        />
-                                    ))}
-                                </div>
-                            </CardContent>
-                        </Card>
+                        <Reveal key={category.category} delay={idx * 100}>
+                            <Card
+                                key={category.category}
+                                className="hover:shadow-lg transition-shadow duration-300"
+                            >
+                                <CardHeader>
+                                    <CardTitle className="flex items-center justify-between">
+                                        <span className="text-lg">{category.category}</span>
+                                        <span className="text-sm font-normal text-gray-500 dark:text-gray-400">
+                                            {category.items.length} skills
+                                        </span>
+                                    </CardTitle>
+                                </CardHeader>
+                                <CardContent>
+                                    <div className="flex flex-wrap gap-2">
+                                        {category.items.map((skill) => (
+                                            <SkillBadge
+                                                key={skill}
+                                                skill={skill}
+                                                category={category.category}
+                                            />
+                                        ))}
+                                    </div>
+                                </CardContent>
+                            </Card>
+                        </Reveal>
                     ))}
                 </div>
 

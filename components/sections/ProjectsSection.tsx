@@ -1,5 +1,5 @@
 'use client';
-
+import { Reveal } from '@/components/ui/reveal';
 import { useState } from 'react';
 import { Separator } from '@/components/ui/separator';
 import { Button } from '@/components/ui/button';
@@ -79,8 +79,10 @@ export default function ProjectsSection() {
                 {/* Projects Grid */}
                 {displayedProjects.length > 0 ? (
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                        {displayedProjects.map((project) => (
-                            <ProjectCard key={project.id} project={project} />
+                        {displayedProjects.map((project, idx) => (
+                            <Reveal key={project.id} delay={idx * 100}>
+                                <ProjectCard key={project.id} project={project} />
+                            </Reveal>
                         ))}
                     </div>
                 ) : (
