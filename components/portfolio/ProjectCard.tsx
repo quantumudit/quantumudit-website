@@ -103,23 +103,23 @@ export default function ProjectCard({ project }: ProjectCardProps) {
             </CardContent>
 
             <CardFooter className="flex gap-2 pt-4 border-t">
-                {project.githubUrl && (
+                {project.github && (
                     <Button variant="outline" size="sm" asChild className="flex-1">
-                        <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                        <a href={project.github} target="_blank" rel="noopener noreferrer">
                             <Github className="w-4 h-4 mr-2" />
                             Code
                         </a>
                     </Button>
                 )}
-                {project.demoUrl && (
+                {project.demo && (
                     <Button variant="default" size="sm" asChild className="flex-1">
-                        <a href={project.demoUrl} target="_blank" rel="noopener noreferrer">
+                        <a href={project.demo} target="_blank" rel="noopener noreferrer">
                             <ExternalLink className="w-4 h-4 mr-2" />
                             Demo
                         </a>
                     </Button>
                 )}
-                {!project.githubUrl && !project.demoUrl && (
+                {!project.github && !project.demo && (
                     <Button variant="ghost" size="sm" disabled className="flex-1">
                         Coming Soon
                     </Button>
