@@ -3,12 +3,11 @@
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Github, Linkedin, Mail, FileDown } from 'lucide-react';
-import profileInfo from '@/data/portfolio/profile.json';
-import experienceData from '@/data/portfolio/experience.json';
+import { getProfile, getYearsOfExperience } from '@/lib/data';
 
 export default function HeroSection() {
-    const profile = profileInfo;
-    const yearsExp = experienceData.yearsOfExperience;
+    const profile = getProfile();
+    const yearsExp = getYearsOfExperience();
 
     const scrollToSection = (sectionId: string) => {
         const element = document.getElementById(sectionId);
