@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import projectsData from '@/data/projects.json';
+import projectsData from '@/data/portfolio/projects.json';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, ExternalLink, Github } from 'lucide-react';
 import Image from 'next/image';

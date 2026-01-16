@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import certificationsData from '@/data/certifications.json';
-import profileData from '@/data/profile.json';
+import certificationsData from '@/data/portfolio/certifications.json';
+import profileData from '@/data/portfolio/profile.json';
 import { Award, CheckCircle, ShieldCheck } from 'lucide-react';
 
 export default function TrustSection() {

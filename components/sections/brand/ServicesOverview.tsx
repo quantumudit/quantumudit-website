@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import servicesData from '@/data/services.json';
+import servicesData from '@/data/brand/services.json';
 import { BarChart3, Brain, Database, LineChart } from 'lucide-react';
 
 // Icon mapping
