@@ -77,13 +77,13 @@ export default function PortfolioNavigation() {
             <div className="container mx-auto px-4">
                 <div className="flex items-center justify-between h-16">
 
-                    {/* Logo */}
-                    <button
-                        onClick={() => scrollToSection('home')}
+                    {/* Logo - Links to Homepage */}
+                    <Link
+                        href="/"
                         className="text-xl font-bold text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                     >
-                        Portfolio
-                    </button>
+                        QuantumUdit
+                    </Link>
 
                     {/* Desktop Navigation */}
                     <div className="hidden md:flex items-center space-x-1">
