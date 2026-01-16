@@ -1,0 +1,32 @@
+{
+    "services": [
+        {
+            "id": "analytics-strategy",
+            "title": "Analytics Strategy",
+            "icon": "BarChart3",
+            "description": "Turning raw data into a strategic asset with clear roadmaps and KPIs.",
+            "link": "/services#strategy"
+        },
+        {
+            "id": "ai-ml-solutions",
+            "title": "AI & ML Solutions",
+            "icon": "Brain",
+            "description": "Deploying practical machine learning models that solve real business problems.",
+            "link": "/services#ai-ml"
+        },
+        {
+            "id": "data-engineering",
+            "title": "Data Engineering",
+            "icon": "Database",
+            "description": "Building robust, scalable pipelines to ensure data quality and availability.",
+            "link": "/services#engineering"
+        },
+        {
+            "id": "bi-visualization",
+            "title": "BI & Visualization",
+            "icon": "LineChart",
+            "description": "Creating intuitive dashboards that drive faster, better decision making.",
+            "link": "/services#visualization"
+        }
+    ]
+}
