@@ -12,7 +12,7 @@ export default function TrustSection() {
             <div className="container mx-auto px-4">
                 <div className="max-w-3xl mx-auto text-center mb-16">
                     <h2 className="text-3xl font-bold text-quantum-blue dark:text-white mb-6 font-montserrat">
-                        Why Trust QuantumUdit?
+                        Why Trust Udit?
                     </h2>
                     <p className="text-xl text-gray-600 dark:text-gray-300 leading-relaxed">
                         Proven expertise backed by global standards and real-world impact.
