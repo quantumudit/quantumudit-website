@@ -14,6 +14,7 @@ export default function GlobalNavigation() {
         { href: '/services', label: 'Services' },
         { href: '/training', label: 'Training' },
         { href: '/resources', label: 'Resources' },
+        { href: '/courses', label: 'Courses' },
         { href: '/blog', label: 'Blog' },
     ];
 
