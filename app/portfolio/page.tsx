@@ -1,10 +1,10 @@
 import Navigation from '@/components/layout/PortfolioNavigation';
 import Footer from '@/components/layout/Footer';
-import HeroSection from '@/components/sections/HeroSection';
-import SkillsSection from '@/components/sections/SkillsSection';
-import ProjectsSection from '@/components/sections/ProjectsSection';
-import AboutSection from '@/components/sections/AboutSection';
-import ContactSection from '@/components/sections/ContactSection';
+import HeroSection from '@/components/sections/portfolio/HeroSection';
+import SkillsSection from '@/components/sections/portfolio/SkillsSection';
+import ProjectsSection from '@/components/sections/portfolio/ProjectsSection';
+import AboutSection from '@/components/sections/portfolio/AboutSection';
+import ContactSection from '@/components/sections/portfolio/ContactSection';
 import { ScrollToTop } from '@/components/ui/scroll-to-top';
 
 export default function Home() {
