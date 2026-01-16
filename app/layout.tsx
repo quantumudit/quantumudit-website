@@ -1,27 +1,43 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { Montserrat, Open_Sans, JetBrains_Mono } from 'next/font/google';
 import './globals.css';
 
-const inter = Inter({ subsets: ['latin'] });
+const montserrat = Montserrat({ 
+  subsets: ['latin'],
+  variable: '--font-montserrat',
+  display: 'swap',
+});
+
+const openSans = Open_Sans({ 
+  subsets: ['latin'],
+  variable: '--font-open-sans',
+  display: 'swap',
+});
+
+const jetbrainsMono = JetBrains_Mono({ 
+  subsets: ['latin'], 
+  variable: '--font-jetbrains-mono',
+  display: 'swap',
+});
 
 export const metadata: Metadata = {
-  title: 'Udit Chatterjee | Data Scientist & ML Engineer',
-  description: 'Portfolio website of Udit Chatterjee - Data Scientist, Machine Learning Engineer, and Analytics Expert. Showcasing projects in data science, machine learning, and big data analytics.',
-  keywords: ['Data Science', 'Machine Learning', 'Python', 'Analytics', 'Portfolio', 'Udit Chatterjee'],
+  title: 'QuantumUdit | Applied Analytics & AI',
+  description: 'QuantumUdit is a professional brand for Applied Analytics, Business Intelligence, and AI Enablement. Helping teams and professionals make better decisions.',
+  keywords: ['Applied Analytics', 'Business Intelligence', 'AI Enablement', 'Power BI', 'Training', 'Consulting', 'QuantumUdit'],
   authors: [{ name: 'Udit Chatterjee' }],
   creator: 'Udit Chatterjee',
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: 'https://quantumudit.com',
-    siteName: 'Udit Chatterjee Portfolio',
-    title: 'Udit Chatterjee | Data Scientist & ML Engineer',
-    description: 'Portfolio showcasing data science and machine learning projects',
+    siteName: 'QuantumUdit',
+    title: 'QuantumUdit | Applied Analytics & AI',
+    description: 'Applied Analytics, Business Intelligence, and AI Enablement by Udit Chatterjee.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Udit Chatterjee | Data Scientist & ML Engineer',
-    description: 'Portfolio showcasing data science and machine learning projects',
+    title: 'QuantumUdit | Applied Analytics & AI',
+    description: 'Applied Analytics, Business Intelligence, and AI Enablement by Udit Chatterjee.',
   },
 };
 
@@ -32,7 +48,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={inter.className}>{children}</body>
+      <body className={`${montserrat.variable} ${openSans.variable} ${jetbrainsMono.variable} font-body antialiased`}>
+        {children}
+      </body>
     </html>
   );
 }
