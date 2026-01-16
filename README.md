@@ -1,48 +1,121 @@
-# Portfolio Website
+# QuantumUdit | Applied Analytics & AI
 
-![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue?logo=typescript)
-![Tailwind](https://img.shields.io/badge/Tailwind-3.4-38bdf8?logo=tailwind-css)
-![License](https://img.shields.io/badge/License-MIT-green)
+A professional portfolio and brand website for Udit Choudhary (QuantumUdit), showcasing expertise in analytics, AI, and data engineering.
 
-Modern portfolio website built with Next.js 15, TypeScript, and Tailwind CSS.
+## 🚀 Tech Stack
 
+- **Framework**: [Next.js 15.1](https://nextjs.org/) (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS v4
+- **UI Components**: [shadcn/ui](https://ui.shadcn.com/)
+- **Icons**: [Lucide Icons](https://lucide.dev/)
+- **Deployment**: Vercel (planned)
 
+## 📁 Project Structure
 
+The project follows a modular organization pattern separating brand site content from portfolio content. For detailed information, see [PROJECT-STRUCTURE.md](./PROJECT-STRUCTURE.md).
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+├── app/                    # Next.js app router pages
+│   ├── page.tsx           # Brand homepage
+│   ├── portfolio/         # Portfolio page
+│   ├── services/          # Services landing (launching soon)
+│   ├── training/          # Training programs (launching soon)
+│   ├── resources/         # Resources hub (launching soon)
+│   ├── courses/           # Courses (launching soon)
+│   └── blog/              # Blog (launching soon)
+├── components/
+│   ├── sections/
+│   │   ├── brand/         # Brand homepage sections
+│   │   ├── portfolio/     # Portfolio page sections
+│   │   └── shared/        # Cross-context sections
+│   ├── layout/            # Navigation, footer
+│   └── ui/                # Reusable UI components (shadcn/ui)
+├── data/
+│   ├── portfolio/         # Portfolio data (profile, projects, experience, etc.)
+│   ├── brand/             # Brand site data (services)
+│   └── shared/            # Cross-context data
+└── lib/                   # Utility functions and data helpers
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🏃 Getting Started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Prerequisites
+- Node.js 18+ 
+- npm or yarn
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Installation
 
-## Learn More
+```bash
+# Clone the repository
+git clone https://github.com/quantumudit/quantumudit-website.git
 
-To learn more about Next.js, take a look at the following resources:
+# Navigate to project directory
+cd quantumudit-website
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Install dependencies
+npm install
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Run development server
+npm run dev
+```
 
-## Deploy on Vercel
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📜 Available Scripts
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start development server on port 3000 |
+| `npm run build` | Build for production |
+| `npm run start` | Start production server |
+| `npm run lint` | Run ESLint |
+| `npm run type-check` | Run TypeScript compiler check |
+
+## 🎨 Brand Guidelines
+
+QuantumUdit follows strict brand guidelines defined in `.agent/rules/07-brand-specs.md`:
+
+- **Primary Colors**: Quantum Blue (`#0A4D8C`), Quantum Light (`#4A90D9`)
+- **Typography**: Montserrat (headings), Open Sans (body), JetBrains Mono (code)
+- **Tone**: "Quiet Authority" - professional, confident, no hype
+
+## 🗂️ Data Management
+
+All content is driven by JSON files in the `data/` directory. This approach ensures:
+- Type-safe content with TypeScript interfaces
+- Easy content updates without code changes
+- Separation of concerns (content vs. presentation)
+
+See `lib/data.ts` for helper functions to access and transform data.
+
+## 🧩 Component Architecture
+
+Components follow a strict organizational pattern:
+- **Brand sections**: For homepage and marketing pages
+- **Portfolio sections**: For detailed portfolio showcase
+- **Shared components**: Reusable across contexts
+- **UI components**: shadcn/ui primitives and custom UI elements
+
+## 🚢 Deployment
+
+The site is deployed on Vercel. Deployment is automated via GitHub Actions (CI/CD pipeline planned).
+
+## 📝 Contributing
+
+Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for details on our development workflow, commit conventions, and code style guidelines.
+
+## 📄 License
+
+This project is proprietary and confidential. All rights reserved © 2026 Udit Choudhary (QuantumUdit).
+
+## 📧 Contact
+
+- **Website**: [quantumudit.com](https://quantumudit.com) (planned)
+- **Email**: quantumudit@gmail.com
+- **LinkedIn**: [linkedin.com/in/quantumudit](https://linkedin.com/in/quantumudit)
+- **GitHub**: [github.com/quantumudit](https://github.com/quantumudit)
+
+---
+
+**Built with excellence by QuantumUdit** 🚀
