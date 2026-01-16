@@ -1,9 +1,9 @@
 import GlobalNavigation from '@/components/layout/GlobalNavigation';
 import Footer from '@/components/layout/Footer';
-import BrandHero from '@/components/sections/BrandHero';
-import ServicesOverview from '@/components/sections/ServicesOverview';
-import TrustSection from '@/components/sections/TrustSection';
-import FeaturedWorkSection from '@/components/sections/FeaturedWorkSection';
+import BrandHero from '@/components/sections/brand/BrandHero';
+import ServicesOverview from '@/components/sections/brand/ServicesOverview';
+import TrustSection from '@/components/sections/brand/TrustSection';
+import FeaturedWorkSection from '@/components/sections/brand/FeaturedWorkSection';
 
 export default function Home() {
     return (
