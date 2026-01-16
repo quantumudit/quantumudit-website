@@ -1,4 +1,4 @@
-import Navigation from '@/components/layout/Navigation';
+import Navigation from '@/components/layout/PortfolioNavigation';
 import Footer from '@/components/layout/Footer';
 import HeroSection from '@/components/sections/HeroSection';
 import SkillsSection from '@/components/sections/SkillsSection';

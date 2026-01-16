@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
-export default function Navigation() {
+export default function PortfolioNavigation() {
     const [isScrolled, setIsScrolled] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const [activeSection, setActiveSection] = useState('home');
@@ -70,8 +70,8 @@ export default function Navigation() {
     return (
         <nav
             className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
-                    ? 'bg-white/80 dark:bg-gray-900/80 backdrop-blur-md shadow-md'
-                    : 'bg-transparent'
+                ? 'bg-white/80 dark:bg-gray-900/80 backdrop-blur-md shadow-md'
+                : 'bg-transparent'
                 }`}
         >
             <div className="container mx-auto px-4">
@@ -92,8 +92,8 @@ export default function Navigation() {
                                 key={link.id}
                                 onClick={() => scrollToSection(link.id)}
                                 className={`px-4 py-2 rounded-md text-sm font-medium transition-colors ${activeSection === link.id
-                                        ? 'text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20'
-                                        : 'text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400'
+                                    ? 'text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20'
+                                    : 'text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400'
                                     }`}
                             >
                                 {link.label}
@@ -123,8 +123,8 @@ export default function Navigation() {
                                     key={link.id}
                                     onClick={() => scrollToSection(link.id)}
                                     className={`px-4 py-2 rounded-md text-left text-sm font-medium transition-colors ${activeSection === link.id
-                                            ? 'text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20'
-                                            : 'text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400'
+                                        ? 'text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20'
+                                        : 'text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400'
                                         }`}
                                 >
                                     {link.label}
