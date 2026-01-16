@@ -3,87 +3,104 @@
         {
             "id": 1,
             "company": "Deloitte",
-            "position": "Senior Data Analyst",
-            "location": "San Francisco, CA",
+            "position": "Sr. Data Scientist",
+            "location": "Kolkata, West Bengal, India",
             "type": "Full-time",
-            "startDate": "2021-03",
+            "startDate": "2022-03",
             "endDate": "Present",
             "current": true,
-            "description": "Leading data analysis initiatives for Fortune 500 clients, specializing in predictive analytics and business intelligence solutions.",
+            "description": "Leading data initiatives for Advisory and Cybersecurity teams using Python, NLP, Alteryx, and Power BI.",
             "responsibilities": [
-                "Design and implement data pipelines processing 1M+ records daily",
-                "Create executive dashboards and reports for C-level stakeholders",
-                "Mentor team of 3 junior analysts on best practices and methodologies",
-                "Collaborate with cross-functional teams to drive data-driven decision making"
+                "Automated reporting and insight generation using Python/NLP, reducing manual reporting time by 50%",
+                "Led ERP migration and audit analytics projects; improved data comprehension by 40% via Power BI visualizations",
+                "Developed CTF challenges with Cybersecurity team addressing Generative AI & NLP vulnerabilities",
+                "Created Python module to parse XML and automate Alteryx workflow documentation, saving 60% documentation time"
             ],
             "achievements": [
-                "Reduced reporting time by 70% through automation",
-                "Increased forecast accuracy from 75% to 92%",
-                "Led migration to cloud-based analytics platform"
+                "Recognized with 2 Spot Awards & Applause Award"
             ],
             "technologies": [
                 "Python",
-                "SQL",
-                "Tableau",
-                "AWS",
-                "Snowflake"
+                "NLP",
+                "Alteryx",
+                "Power BI",
+                "Machine Learning"
             ]
         },
         {
             "id": 2,
-            "company": "TechCorp Solutions",
-            "position": "Data Analyst",
-            "location": "New York, NY",
+            "company": "Pricewaterhouse Coopers (PwC)",
+            "position": "Sr. Consultant (Analytics & BI)",
+            "location": "Kolkata, West Bengal, India",
             "type": "Full-time",
-            "startDate": "2019-06",
-            "endDate": "2021-02",
+            "startDate": "2020-11",
+            "endDate": "2022-03",
             "current": false,
-            "description": "Performed data analysis and visualization for marketing and sales departments, driving insights for strategic initiatives.",
+            "description": "Managed financial due diligence (FDD) and audit analytics projects.",
             "responsibilities": [
-                "Analyzed customer behavior data to identify trends and patterns",
-                "Built interactive dashboards using Tableau and Power BI",
-                "Conducted A/B testing and statistical analysis for marketing campaigns",
-                "Collaborated with data engineers to improve data quality"
+                "Led a team of 5 in FDD and audit analytics, boosting efficiency by 25% and delivering 30% ahead of schedule",
+                "Deployed data models on Azure Analysis Services (AAS) and integrated Azure AI APIs in Power BI",
+                "Streamlined ETL operations using Alteryx, cutting prep time by 70% and improving accuracy",
+                "Spearheaded web scraping/automation initiatives using Python to save 10-15 hours/week"
             ],
             "achievements": [
-                "Improved customer segmentation accuracy by 40%",
-                "Reduced churn rate by 12% through predictive modeling",
-                "Automated 15+ manual reporting processes"
+                "Spot Award, Digital Acumen Badge & Quality Perfectionist Award",
+                "Honored with Central Award (Wizard of Process Efficiency)"
             ],
             "technologies": [
-                "Python",
-                "R",
-                "SQL",
-                "Tableau",
-                "Power BI"
+                "Azure Analysis Services",
+                "Azure AI APIs",
+                "Power BI",
+                "Alteryx",
+                "Python"
             ]
         },
         {
             "id": 3,
-            "company": "DataStart Inc",
-            "position": "Junior Data Analyst",
-            "location": "Boston, MA",
+            "company": "Brandscapes Worldwide",
+            "position": "Data Analyst",
+            "location": "Bhubaneswar, Odisha, India",
             "type": "Full-time",
-            "startDate": "2018-01",
-            "endDate": "2019-05",
+            "startDate": "2018-07",
+            "endDate": "2020-10",
             "current": false,
-            "description": "Entry-level role focused on data cleaning, analysis, and reporting for various client projects.",
+            "description": "Analyzed and visualized retail/market research data.",
             "responsibilities": [
-                "Cleaned and preprocessed data from multiple sources",
-                "Created ad-hoc reports and visualizations for clients",
-                "Assisted senior analysts with data modeling projects",
-                "Maintained data quality and documentation standards"
+                "Analyzed/visualized retail data using Power BI and Tableau, improving decision-making by 40%",
+                "Led migration from SSIS to Alteryx, saving $50K annually and automating ETL tasks",
+                "Served as direct consultant for The Coca-Cola Company, delivering insights that increased campaign ROI by 15%"
+            ],
+            "achievements": [],
+            "technologies": [
+                "Power BI",
+                "Tableau",
+                "SSIS",
+                "Alteryx"
+            ]
+        },
+        {
+            "id": 4,
+            "company": "Arcotech Ltd.",
+            "position": "Quality Engineer",
+            "location": "Rewari, Haryana, India",
+            "type": "Full-time",
+            "startDate": "2016-02",
+            "endDate": "2018-06",
+            "current": false,
+            "description": "Led data analytics initiatives for quality control and process improvement.",
+            "responsibilities": [
+                "Enhancing data visualization and reporting using Python, Tableau, and Advanced Excel",
+                "Resulted in 30% improvement in stakeholder decision-making efficiency",
+                "Led quality circle team, reducing process errors by 20% via statistical process control (SPC)"
             ],
             "achievements": [
-                "Processed 500K+ records for client analytics projects",
-                "Received 'Outstanding New Hire' award",
-                "Completed 10+ professional certifications"
+                "Represented company at ACMA conference"
             ],
             "technologies": [
-                "Excel",
-                "SQL",
                 "Python",
-                "Tableau"
+                "Tableau",
+                "Advanced Excel",
+                "SPC"
             ]
         }
     ]

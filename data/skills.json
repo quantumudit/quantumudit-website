@@ -2,78 +2,62 @@
     "categories": [
         {
             "id": 1,
-            "category": "Programming Languages",
-            "icon": "code",
+            "category": "Analytics & BI",
+            "icon": "bar-chart",
             "items": [
-                "Python",
-                "R",
-                "SQL",
-                "JavaScript",
-                "Java"
+                "Microsoft Power BI",
+                "Microsoft Fabric",
+                "Tableau",
+                "Looker Studio",
+                "Alteryx",
+                "Excel (Advanced)"
             ]
         },
         {
             "id": 2,
-            "category": "Data Analysis & Visualization",
-            "icon": "bar-chart",
+            "category": "Data Engineering & Cloud",
+            "icon": "cloud",
             "items": [
-                "Pandas",
-                "NumPy",
-                "Matplotlib",
-                "Seaborn",
-                "Plotly",
-                "Tableau",
-                "Power BI",
-                "Looker"
+                "Azure Synapse Analytics",
+                "SQL (Postgres, SQL Server)",
+                "PySpark",
+                "ETL/ELT"
             ]
         },
         {
             "id": 3,
-            "category": "Machine Learning",
+            "category": "Data Science & ML",
             "icon": "brain",
             "items": [
+                "Python",
+                "NLP",
+                "Generative AI",
                 "Scikit-learn",
                 "TensorFlow",
-                "PyTorch",
-                "XGBoost",
-                "Keras"
+                "Pandas/NumPy"
             ]
         },
         {
             "id": 4,
-            "category": "Big Data & Cloud",
-            "icon": "cloud",
+            "category": "Tools & Dev",
+            "icon": "tool",
             "items": [
-                "Apache Spark",
-                "Hadoop",
-                "AWS",
-                "Google Cloud Platform",
-                "Azure",
-                "Databricks"
+                "VS Code",
+                "Git",
+                "Docker",
+                "JupyterLab",
+                "Selenium"
             ]
         },
         {
             "id": 5,
-            "category": "Databases",
-            "icon": "database",
+            "category": "Soft Skills",
+            "icon": "users",
             "items": [
-                "PostgreSQL",
-                "MySQL",
-                "MongoDB",
-                "Redis",
-                "Snowflake"
-            ]
-        },
-        {
-            "id": 6,
-            "category": "Tools & Technologies",
-            "icon": "tool",
-            "items": [
-                "Git",
-                "Docker",
-                "Jupyter",
-                "VS Code",
-                "Airflow"
+                "Team Management",
+                "Training (MCT)",
+                "Problem Solving",
+                "Effective Communication"
             ]
         }
     ]

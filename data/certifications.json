@@ -2,55 +2,114 @@
     "certifications": [
         {
             "id": 1,
-            "name": "AWS Certified Data Analytics - Specialty",
-            "issuer": "Amazon Web Services",
-            "date": "2023-06",
-            "expiryDate": "2026-06",
-            "credentialId": "AWS-DAS-12345",
-            "credentialUrl": "https://aws.amazon.com/verification",
+            "name": "Microsoft Certified Trainer (MCT)",
+            "issuer": "Microsoft",
+            "date": "2021",
+            "expiryDate": null,
+            "credentialId": "MCT-202X",
+            "credentialUrl": "#",
             "status": "active",
-            "description": "Validates expertise in AWS data analytics services and best practices for designing, building, and maintaining analytics solutions.",
+            "description": "Premier technical training certification for delivering Microsoft technologies.",
             "skills": [
-                "AWS Glue",
-                "Amazon Athena",
-                "Amazon Kinesis",
-                "Data Lakes",
-                "ETL Pipelines"
+                "Training",
+                "Presentation",
+                "Microsoft Stack"
             ]
         },
         {
             "id": 2,
-            "name": "Tableau Desktop Specialist",
-            "issuer": "Tableau",
-            "date": "2022-11",
+            "name": "Microsoft Certified: Power BI Data Analyst Associate (PL-300)",
+            "issuer": "Microsoft",
+            "date": "Active",
             "expiryDate": null,
-            "credentialId": "TB-DS-67890",
-            "credentialUrl": "https://www.tableau.com/learn/certification",
+            "credentialId": "PL-300",
+            "credentialUrl": "#",
             "status": "active",
-            "description": "Demonstrates foundational skills in Tableau Desktop, including data connections, visual analytics, and dashboard creation.",
+            "description": "Demonstrates mastery in data modeling, visualization, and analysis with Power BI.",
             "skills": [
-                "Data Visualization",
-                "Dashboard Design",
-                "Calculated Fields",
-                "Data Blending"
+                "Power BI",
+                "DAX",
+                "Data Modeling"
             ]
         },
         {
             "id": 3,
-            "name": "Google Data Analytics Professional Certificate",
-            "issuer": "Google / Coursera",
-            "date": "2021-08",
+            "name": "Microsoft Certified: Azure Enterprise Data Analyst Associate (DP-500)",
+            "issuer": "Microsoft",
+            "date": "Active",
             "expiryDate": null,
-            "credentialId": "GDAPC-2021-XYZ",
-            "credentialUrl": "https://coursera.org/verify/professional-cert/xyz",
+            "credentialId": "DP-500",
+            "credentialUrl": "#",
             "status": "active",
-            "description": "Comprehensive program covering data analysis fundamentals, data visualization, R programming, and SQL.",
+            "description": "Advanced analytics at enterprise scale using Azure and Power BI.",
             "skills": [
-                "Data Analysis",
-                "R Programming",
-                "SQL",
-                "Data Cleaning",
-                "Spreadsheets"
+                "Azure Synapse",
+                "Purview",
+                "Advanced Power BI"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Microsoft Certified: Fabric Analytics Engineer Associate (DP-600)",
+            "issuer": "Microsoft",
+            "date": "Active",
+            "expiryDate": null,
+            "credentialId": "DP-600",
+            "credentialUrl": "#",
+            "status": "active",
+            "description": "Implementing and managing analytics solutions in Microsoft Fabric.",
+            "skills": [
+                "Microsoft Fabric",
+                "OneLake",
+                "Apache Spark"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Certified Professional in Python Programming (PCAP)",
+            "issuer": "Python Institute",
+            "date": "Active",
+            "expiryDate": null,
+            "credentialId": "PCAP",
+            "credentialUrl": "#",
+            "status": "active",
+            "description": "Professional level Python programming certification.",
+            "skills": [
+                "Python",
+                "OOP",
+                "Data Structures"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Alteryx Designer Advanced",
+            "issuer": "Alteryx",
+            "date": "Active",
+            "expiryDate": null,
+            "credentialId": "Alteryx-Adv",
+            "credentialUrl": "#",
+            "status": "active",
+            "description": "Advanced proficiency in data preparation and analytics with Alteryx.",
+            "skills": [
+                "Alteryx",
+                "ETL",
+                "Spatial Analytics"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Microsoft Certified: Azure AI Fundamentals (AI-900)",
+            "issuer": "Microsoft",
+            "date": "Active",
+            "expiryDate": null,
+            "credentialId": "AI-900",
+            "credentialUrl": "#",
+            "status": "active",
+            "description": "Foundational knowledge of machine learning and AI concepts on Azure.",
+            "skills": [
+                "Azure AI",
+                "Machine Learning",
+                "Cognitive Services"
             ]
         }
     ]

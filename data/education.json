@@ -2,49 +2,20 @@
     "education": [
         {
             "id": 1,
-            "institution": "University of California, Berkeley",
-            "degree": "Master of Science",
-            "field": "Data Science",
-            "location": "Berkeley, CA",
-            "startDate": "2016-09",
-            "endDate": "2018-05",
-            "gpa": "3.8/4.0",
-            "description": "Focused on machine learning, statistical analysis, and big data technologies. Completed capstone project on predictive modeling for healthcare applications.",
+            "institution": "Gandhi Institute of Engineering & Technology (GIET)",
+            "degree": "B.Tech",
+            "field": "Mechanical Engineering",
+            "location": "Odisha, India",
+            "startDate": "2012",
+            "endDate": "2016",
+            "gpa": "8.5 CGPA",
+            "description": "Graduated with strong analytical foundations.",
             "coursework": [
-                "Machine Learning",
-                "Statistical Inference",
-                "Big Data Analytics",
-                "Deep Learning",
-                "Data Mining"
+                "Engineering Mathematics",
+                "Data Analysis",
+                "Project Management"
             ],
-            "achievements": [
-                "Dean's List (4 semesters)",
-                "Graduate Research Assistant",
-                "Published 2 papers on predictive analytics"
-            ]
-        },
-        {
-            "id": 2,
-            "institution": "University of Mumbai",
-            "degree": "Bachelor of Science",
-            "field": "Computer Science",
-            "location": "Mumbai, India",
-            "startDate": "2012-08",
-            "endDate": "2016-05",
-            "gpa": "3.6/4.0",
-            "description": "Strong foundation in programming, algorithms, and database systems. Active member of coding club and data science society.",
-            "coursework": [
-                "Data Structures",
-                "Algorithms",
-                "Database Management",
-                "Statistics",
-                "Software Engineering"
-            ],
-            "achievements": [
-                "First Class Honours",
-                "Coding Competition Winner (2015)",
-                "President of Data Science Club"
-            ]
+            "achievements": []
         }
     ]
 }
