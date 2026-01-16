@@ -4,8 +4,6 @@ import BrandHero from '@/components/sections/BrandHero';
 import ServicesOverview from '@/components/sections/ServicesOverview';
 import TrustSection from '@/components/sections/TrustSection';
 import FeaturedWorkSection from '@/components/sections/FeaturedWorkSection';
-import Link from 'next/link';
-import { Button } from '@/components/ui/button';
 
 export default function Home() {
     return (
